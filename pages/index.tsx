@@ -1,10 +1,9 @@
-import styled from 'styled-components'
-
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
+import Dummy from '../src/components/Dummy'
 
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+      <>
+        <Dummy>Template NextJS + StyledComponents + StoryBook</Dummy>
+      </>
+  )
 }
