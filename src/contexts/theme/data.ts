@@ -1,5 +1,5 @@
 const data = {
-    theme: 'light',
-}
+  theme: 'light',
+};
 
 export default data;

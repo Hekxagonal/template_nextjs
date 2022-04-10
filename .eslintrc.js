@@ -1,4 +1,3 @@
-// yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
 module.exports = {
   env: {
     browser: true,
@@ -12,7 +11,10 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:storybook/recommended',
     'plugin:storybook/recommended',
+    'plugin:@next/next/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -29,6 +31,8 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
     'no-unused-vars': 'off',
-    indent: ['warn', 2],
+    indent: ['off'],
+    '@typescript-eslint/rule-name': 'off',
+    '@typescript-eslint/no-explicit-any': 'warn',
   },
 };

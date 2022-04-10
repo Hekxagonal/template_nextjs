@@ -1,9 +1,9 @@
-import Dummy from '../src/components/Dummy'
+import Dummy from '../src/components/Dummy';
 
 export default function Home() {
   return (
-      <>
-        <Dummy>Template NextJS + StyledComponents + StoryBook</Dummy>
-      </>
-  )
+    <>
+      <Dummy>Template NextJS + StyledComponents + StoryBook</Dummy>
+    </>
+  );
 }
