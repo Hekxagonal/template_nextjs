@@ -21,6 +21,7 @@
     "isolatedModules": true,
     "incremental": true
   },
+  "types": ["mdx"],
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx","**/*.mdx"]
 }
