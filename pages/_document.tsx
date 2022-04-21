@@ -39,10 +39,6 @@ export default class MyDocument extends Document {
       <Html lang="pt-BR">
         <Head />
         <body>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap"
-            rel="stylesheet"
-          />
           <Main />
           <NextScript />
         </body>
