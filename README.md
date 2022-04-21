@@ -24,7 +24,7 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 ## Notes
 
-This is an amalgamation of the 2 existing examples:
+This is an amalgamation of the 2 existing examples
 
 - [with-typescript](https://github.com/vercel/next.js/tree/canary/examples/with-typescript)
 - [with-styled-components](https://github.com/vercel/next.js/tree/canary/examples/with-styled-components)
